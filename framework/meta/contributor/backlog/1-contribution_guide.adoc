@@ -1,0 +1,3 @@
+include::../persona/1-pdd_newcomer.adoc[]
+, I want to get a contributor section telling me how to clone the project
+include::../../common/output_format/asciidoctor.adoc[]
