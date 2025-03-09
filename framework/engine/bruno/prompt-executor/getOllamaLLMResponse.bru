@@ -1,0 +1,38 @@
+meta {
+  name: getOllamaLLMResponse
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:11434/api/chat
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+          "model": "llama3.2",
+          "messages": [
+              {
+                  "role": "user",
+                  "content": "{{promptText}}"
+  
+              }
+          ],
+          "stream": false
+      }
+  
+}
+
+tests {
+  test("answer is 200", function() {
+    const data = res.getBody();
+    expect(res.getStatus()).to.equal(200);
+  });
+   
+  test("result is not null", function() {
+    const data = res.getBody();
+    expect(data.message.content).to.be.a('string');
+  });
+}

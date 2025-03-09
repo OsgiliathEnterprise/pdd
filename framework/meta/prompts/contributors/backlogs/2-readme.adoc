@@ -1,0 +1,13 @@
+include::../../commons/guidelines/guides.adoc[]
+
+== Story
+
+include::../personas/1-pdd_newcomer.adoc[]
+, I want to get a readme for a code generator that has an english dsl
+
+== Acceptance criteria
+
+include::../bdds/2-readme.adoc[]
+
+== Output
+include::../../commons/output_formats/asciidoctor.adoc[]

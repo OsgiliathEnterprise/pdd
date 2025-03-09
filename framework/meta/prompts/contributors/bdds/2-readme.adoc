@@ -1,0 +1,20 @@
+
+=== Requirement 1
+
+Given a Github user, when I read the readme of this 'Prompt driven development' repository, then it tell that this project is a code generator based on AI.
+
+=== Requirement 2
+
+Given a Github user, when I read the second section of readme of this repository, then it tell that this the code generators uses scrum stories, acceptance criteria and practices description as an input.
+
+=== Requirement 3
+
+Given a Github user, when I read the third section of readme of this repository, then it explains that the syntax is asciidoctor and describes some snippets and pointers to asciidoctor doc.
+
+=== Requirement 4
+
+Given a Github user, when I read the according section of readme of this repository, then it describes that the licence is Apache v2.
+
+=== Requirement 5
+
+Given a Github user, when I read the according section of readme of this repository, then it describes that the next step is to generate the library itself using prompt until the point laingchain4j will be used.

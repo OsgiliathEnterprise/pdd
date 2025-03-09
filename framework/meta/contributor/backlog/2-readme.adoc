@@ -1,3 +1,0 @@
-include::../persona/1-pdd_newcomer.adoc[]
-, I want to get a readme for a code generator that has an english dsl
-include::../../common/output_format/asciidoctor.adoc[]

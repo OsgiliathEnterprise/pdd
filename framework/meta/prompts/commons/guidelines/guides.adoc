@@ -1,0 +1,8 @@
+= Introduction
+
+As a LLM, you will receive a markdown page in the following form with following title:
+
+. Act as: the behaviour and actor you should behave as.
+. Story: a user story expressing the intent of what you should answer to.
+. (Optional) Acceptance criteria in th form 'Given-When-Then'.
+. Format: the expected format you should answer with.
